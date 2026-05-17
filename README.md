@@ -1,15 +1,38 @@
-## IMDB Review Sentiment Analysis
+# IMDB Review Sentiment Analysis
 
-### Steps
+A simple NLP and Machine Learning project to classify IMDB movie reviews as positive or negative.
 
-1. Preprocessing -
-  A. Remove everything else except english characters
-  B. Convert everything in lower case
-  C. Remove stopwords
-  D. Stemming
+## What I Used
 
-2. Vectorization - using CountVectorizer
+- Python
+- Pandas
+- NLTK
+- Scikit-learn
 
-3. Choosing the best model depending on the classification report
+## Steps Performed
 
-4. Analysing sentiment of new Review based on best model
+1. Text preprocessing
+   - Removed special characters
+   - Converted text to lowercase
+   - Removed stopwords
+   - Applied stemming
+
+2. Vectorization
+   - Used `CountVectorizer`
+
+3. Model Training
+   - Logistic Regression
+   - Random Forest
+   - Decision Tree
+   - KNN
+
+4. Final Prediction
+   - Selected the best model based on classification report
+   - Predicted sentiment for new reviews
+
+## Output
+
+The model predicts whether a movie review is:
+
+- Positive
+- Negative
