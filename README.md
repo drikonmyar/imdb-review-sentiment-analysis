@@ -19,6 +19,7 @@ A simple NLP and Machine Learning project to classify IMDB movie reviews as posi
 
 2. Vectorization
    - Used `CountVectorizer`
+   - Used `TfidfVectorizer`
 
 3. Model Training
    - Logistic Regression
